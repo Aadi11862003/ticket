@@ -16,7 +16,7 @@ const ConcertDetail = () => {
     price: {
       basic: 50,
       low: 75,
-      high: 100
+      premium: 100
     },
     totalSeats: 200,
     availableSeats: 150,
@@ -58,7 +58,7 @@ const ConcertDetail = () => {
             </div>
             <div className="p-4 bg-yellow-100 rounded-lg shadow-md text-center">
               <h2 className="text-lg font-bold mb-1">High</h2>
-              <p className="text-2xl font-bold">${concert.price.high}</p>
+              <p className="text-2xl font-bold">${concert.price.premium}</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ const ConcertDetail = () => {
             >
               <option value="basic">Basic - ${concert.price.basic}</option>
               <option value="low">Low - ${concert.price.low}</option>
-              <option value="high">High - ${concert.price.high}</option>
+              <option value="high">High - ${concert.price.premium}</option>
             </select>
           </div>
 
