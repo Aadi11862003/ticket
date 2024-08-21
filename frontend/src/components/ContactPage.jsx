@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import contactImage from '../../public/img5.png'; // Adjust the path as necessary
 
 const ContactPage = () => {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Simulate form submission process
+
+    // Show the popup
+    setPopupVisible(true);
+
+    // Hide the popup after a few seconds
+    setTimeout(() => {
+      setPopupVisible(false);
+    }, 3000);
+  };
+
   return (
     <div className="flex min-h-screen">
       {/* Left Side - Image */}
@@ -16,7 +31,7 @@ const ContactPage = () => {
       <div className="w-1/2 flex items-center justify-center p-8 bg-[#F5EDE7]"> {/* Light background color */}
         <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-lg">
           <h1 className="text-4xl font-extrabold mb-6 text-center text-[#8C6A5D]">Contact Us</h1>
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name" className="block text-[#8C6A5D] text-lg font-medium">Name:</label>
               <input
@@ -56,12 +71,21 @@ const ContactPage = () => {
           </form>
         </div>
       </div>
+
+      {/* Popup Notification */}
+      {isPopupVisible && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-4 rounded-lg shadow-lg">
+            <p className="text-center text-lg font-semibold text-[#8C6A5D]">
+              Thank you for contacting us! You will receive an email within 24 hours.
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
 
 export default ContactPage;
-
-
 
 

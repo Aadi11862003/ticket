@@ -30,7 +30,7 @@ const FrontPage = () => {
     <div className="frontpage">
       <header className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url("img.jpg")' }}>
         <div className="container mx-auto h-full flex flex-col justify-center items-center text-center text-white">
-          <h1 className="text-5xl font-bold">Welcome to ConcertHub</h1>
+          <h1 className="text-5xl font-bold">Welcome to Tickeve</h1>
           <p className="mt-4 text-xl">Book your tickets for the best shows in town</p>
           <a href="login" className="mt-6 bg-red-500 text-white py-3 px-6 rounded-full hover:bg-red-600">Book Tickets</a>
         </div>

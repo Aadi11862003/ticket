@@ -23,7 +23,7 @@ const LoginPage = () => {
 
         {/* Right Side - Login Form */}
         <div className="w-1/2 p-8">
-          <h2 className="text-2xl font-bold text-[#430A5D] mb-6 text-center">ConcertHub</h2>
+          <h2 className="text-2xl font-bold text-[#430A5D] mb-6 text-center">Tickeve</h2>
           <form onSubmit={handleLogin}>
             <div className="mb-4">
               <label htmlFor="email" className="block text-[#430A5D]">Email:</label>
@@ -45,7 +45,9 @@ const LoginPage = () => {
             </div>
             <div className="flex justify-between items-center mb-6">
               <div className="text-[#430A5D] hover:text-[#5F374B] cursor-pointer">Forgot Password?</div>
-              <div className="text-[#430A5D] hover:text-[#5F374B] cursor-pointer">Sign Up</div>
+              <Link to="/signup">
+                <div className="text-[#430A5D] hover:text-[#5F374B] cursor-pointer">Sign Up</div>
+              </Link>
             </div>
             <div className="flex justify-center">
               <button

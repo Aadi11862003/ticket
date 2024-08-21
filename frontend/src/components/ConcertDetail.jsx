@@ -42,7 +42,7 @@ const ConcertDetail = () => {
     <div className="p-8 bg-[#e5cab5] min-h-screen flex flex-col items-center">
       <h1 className="text-4xl font-extrabold mb-6 text-center">{concert.title}</h1>
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl w-full">
-        <img src={concert.image} alt={concert.title} className="w-full h-64 object-cover rounded-lg mb-6" />
+        <img src={concert.image} alt={concert.title} className="w-full h-74 object-cover rounded-lg mb-6" />
         
         {/* Price Information */}
         <div className="mb-6">

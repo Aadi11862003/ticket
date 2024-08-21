@@ -13,7 +13,7 @@ const SignupPage = () => {
 
         {/* Right Side - Signup Form */}
         <div className="w-1/2 p-8">
-          <h2 className="text-2xl font-bold text-[#430A5D] mb-6 text-center">ConcertHub</h2>
+          <h2 className="text-2xl font-bold text-[#430A5D] mb-6 text-center">Tickeve</h2>
           <form>
             <div className="mb-4">
               <label htmlFor="first-name" className="block text-[#430A5D]">Name:</label>

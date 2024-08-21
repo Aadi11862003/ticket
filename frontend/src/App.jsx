@@ -9,6 +9,7 @@ import Concert from './components/ConcertDetail';
 import Finished from './components/FinishedEventDetail';
 import Live from './components/LiveEventsPage';
 import Contact from './components/ContactPage';
+import About from './components/AboutUsPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/finish" element={<Finished />} />
           <Route path="/live" element={<Live />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
          
         </Routes>
       </div>

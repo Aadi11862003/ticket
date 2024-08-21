@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+// import logo from '../../public/logo.png';
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -23,7 +24,12 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-6 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-2xl font-bold">ConcertHub</div>
+        <Link to="/">
+        <div className="text-white text-2xl font-bold">Tickeve</div>
+        </Link>
+        {/* <Link to="/">
+          <img src={logo} alt="ConcertHub Logo" className="h-10" />
+        </Link> */}
         <div className="flex items-center space-x-10 relative">
           <Link to="/" className="text-white hover:text-yellow-400">
             Home
@@ -75,10 +81,14 @@ const Navbar = () => {
           </div>
           
           <Link to="/press" className="text-white hover:text-yellow-400">
-            Press
+            Artist
           </Link>
           <Link to="/contact" className="text-white hover:text-yellow-400">
             Contact
+          </Link>
+
+          <Link to="/about" className="text-white hover:text-yellow-400">
+            About-Us  
           </Link>
         </div>
         <div className="space-x-4">
