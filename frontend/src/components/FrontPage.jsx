@@ -155,7 +155,7 @@ const FrontPage = () => {
                 className="w-64 h-auto object-cover rounded-xl"
               />
               <p>Aug-13</p>
-              <p>sun-10:00am - 12:00pm</p>
+              <p>su-10:00am - 12:00pm</p>
               <p><b>Elements music and arts festival - Sunday</b></p>
               <p>Pune</p>
               <div className="flex flex-col space-y-4">
