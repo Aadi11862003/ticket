@@ -181,10 +181,10 @@ const FrontPage = () => {
                 alt="Image 2"
                 className="w-64 h-auto object-cover rounded-xl"
               />
-              <p>Aug-13</p>
-              <p>sun-10:00am - 12:00pm</p>
-              <p><b>Elements music and arts festival - Sunday</b></p>
-              <p>Pune</p>
+              <p>Aug-14</p>
+              <p>mon-10:00am - 12:00pm</p>
+              <p><b>Elements music and arts festival - monday</b></p>
+              <p>Banglore</p>
               <div className="flex flex-col space-y-4 ">
                 <a
                   href="#"
@@ -208,10 +208,10 @@ const FrontPage = () => {
                 alt="Image 3"
                 className="w-64 h-auto object-cover rounded-xl"
               />
-              <p>Aug-13</p>
-              <p>sun-10:00am - 12:00pm</p>
-              <p><b>Elements music and arts festival - Sunday</b></p>
-              <p>Pune</p>
+              <p>Aug-15</p>
+              <p>Tues-10:00am - 12:00pm</p>
+              <p><b>Elements music and arts festival - Tuesday</b></p>
+              <p>Delhi</p>
               <div className="flex flex-col space-y-4">
                 <a
                   href="#"
