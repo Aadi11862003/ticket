@@ -14,8 +14,8 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-[#e5cab5]"> {/* Changed background color */}
-      <div className="flex max-w-4xl w-full bg-[#c09f9f] rounded-lg shadow-lg overflow-hidden">
+    <div className="flex justify-center items-center h-screen bg-[#b5d7f2]"> {/* Changed background color */}
+      <div className="flex max-w-4xl w-full bg-[#fbf8f8] rounded-lg shadow-lg overflow-hidden">
         {/* Left Side - Image */}
         <div className="w-1/2">
           <img src={image} alt="Login" className="w-full h-full object-cover" />

@@ -4,8 +4,8 @@ import image from '../../public/Login.png'; // Adjust the path as necessary
 
 const SignupPage = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-[#e5cab5]">
-      <div className="flex max-w-4xl w-full bg-[#c09f9f] rounded-lg shadow-lg overflow-hidden">
+    <div className="flex justify-center items-center h-screen bg-[#cce3f5]">
+      <div className="flex max-w-4xl w-full bg-[#faf7f7] rounded-lg shadow-lg overflow-hidden">
         {/* Left Side - Image */}
         <div className="w-1/2">
           <img src={image} alt="Signup" className="w-full h-full object-cover" />
@@ -20,7 +20,7 @@ const SignupPage = () => {
               <input
                 type="text"
                 id="first-name"
-                className="w-full px-4 py-2 mt-2 bg-[#c09f9f] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
+                className="w-full px-4 py-2 mt-2 bg-[#faf7f7] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
                 required
               />
             </div>
@@ -29,7 +29,7 @@ const SignupPage = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full px-4 py-2 mt-2 bg-[#c09f9f] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
+                className="w-full px-4 py-2 mt-2 bg-[#faf7f7] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
                 required
               />
             </div>
@@ -38,7 +38,7 @@ const SignupPage = () => {
               <input
                 type="password"
                 id="password"
-                className="w-full px-4 py-2 mt-2 bg-[#c09f9f] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
+                className="w-full px-4 py-2 mt-2 bg-[#faf7f7] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
                 required
               />
             </div>
@@ -47,16 +47,16 @@ const SignupPage = () => {
               <input
                 type="text"
                 id="pet-name"
-                className="w-full px-4 py-2 mt-2 bg-[#c09f9f] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
+                className="w-full px-4 py-2 mt-2 bg-[#faf7f7] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
                 required
               />
             </div>
             <div className="flex justify-center">
               <Link to="/login">
-                <button className="overflow-hidden w-48 p-2 h-12 bg-[#5F374B] text-white rounded-lg text-xl font-bold cursor-pointer relative z-10 group">
+                <button className="overflow-hidden w-48 p-2 h-12 bg-[#bcb4b4] text-white rounded-lg text-xl font-bold cursor-pointer relative z-10 group">
                   Sign Up
-                  <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#8C6A5D] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-1000 origin-left"></span>
-                  <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#5F374B] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 origin-left"></span>
+                  <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#9bd4f1] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-1000 origin-left"></span>
+                  <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#a8dbe8] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 origin-left"></span>
                   <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#430A5D] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
                   <span className="group-hover:opacity-100 duration-1000 opacity-0 absolute top-2 left-10 z-10">
                     Loading...

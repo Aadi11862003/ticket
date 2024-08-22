@@ -21,7 +21,7 @@ const ContactPage = () => {
     <div className="flex min-h-screen">
       {/* Left Side - Image */}
       <div className="w-1/2 bg-cover bg-center" style={{ backgroundImage: `url(${contactImage})` }}>
-        {/* Optional: Add overlay for better text visibility */}
+        { /*Optional: Add overlay for better text visibility */}
         <div className="flex items-center justify-center h-full bg-black bg-opacity-40">
           <h1 className="text-white text-4xl font-extrabold">Get in Touch</h1>
         </div>

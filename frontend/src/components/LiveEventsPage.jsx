@@ -3,7 +3,7 @@ import liveEventImage from '../../public/Setting.png'; // Replace with the actua
 
 const LiveEventsPage = () => {
   return (
-    <div className="p-8 bg-[#e5cab5] min-h-screen flex flex-col items-center justify-center">
+    <div className="p-8 bg-[#b8d3e7] min-h-screen flex flex-col items-center justify-center">
       <h1 className="text-4xl font-extrabold mb-8  mr-15 text-center"> No Live Events...</h1>
       <div className="w-64 h-64">
         <img

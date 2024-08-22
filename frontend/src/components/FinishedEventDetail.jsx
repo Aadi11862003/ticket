@@ -42,7 +42,7 @@ const finishedEvents = [
 
 const FinishedEventDetail = () => {
   return (
-    <div className="p-8 bg-[#e5cab5] min-h-screen">
+    <div className="p-8 bg-[#b8d3e7] min-h-screen">
       <h1 className="text-4xl font-extrabold mb-6 text-center">Finished Events</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {finishedEvents.map((event, index) => (
