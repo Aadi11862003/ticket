@@ -32,7 +32,7 @@ const FrontPage = () => {
   return (
     <>
       {/* <div className="flex flex-col n"> */}
-        {/* <header
+      {/* <header
           className=" bg-cover rounded-xl bg-center"
         // style={{
         //   backgroundImage: 'url("banner1.png")',
@@ -55,12 +55,12 @@ const FrontPage = () => {
             </a>
           </div> 
         </header> */}
-        {/* <div className='flex justify-center items-center mt-10' >
+      {/* <div className='flex justify-center items-center mt-10' >
           <img src={bp}></img>
           <h1 class="absolute text-7xl ml-96 mb-52 w-72 text-center font-serif">Welcome to Tickeve</h1>
           </div> */}
 
-        {/* <main className="fle">
+      {/* <main className="fle">
            Browser By Category Section 
           <div
             className=" bg-white p-6"
@@ -81,8 +81,8 @@ const FrontPage = () => {
             </div>
           </div> */}
 
-          {/* Second Image */}
-          {/* <div
+      {/* Second Image */}
+      {/* <div
             className=" bg-cover rounded-xl bg-center flex justify-center items-center mt-10"
             style={{
               backgroundImage: 'url("set1.png")',
@@ -94,12 +94,12 @@ const FrontPage = () => {
             }}
           ></div> */}
 
-          {/* <div className='flex justify-center items-center mt-2' >
+      {/* <div className='flex justify-center items-center mt-2' >
             <img src={set}></img>
             </div> */}
 
-          {/* Buttons Section */}
-          {/* <div
+      {/* Buttons Section */}
+      {/* <div
             className=" flex justify-between mt-5 mx-auto">
           </div>
           <div class="flex justify-center gap-56 ">
@@ -118,8 +118,8 @@ const FrontPage = () => {
             </button>
           </div> */}
 
-          {/* Top Picks Near You Section */}
-          {/* <div
+      {/* Top Picks Near You Section */}
+      {/* <div
             className=" bg-white p-6"
             style={{
 
@@ -138,8 +138,8 @@ const FrontPage = () => {
             </div>
           </div> */}
 
-          {/* Images and Buttons Section */}
-          {/* <div
+      {/* Images and Buttons Section */}
+      {/* <div
             className=" flex flex-col space-y-6"
             style={{
 
@@ -175,8 +175,8 @@ const FrontPage = () => {
               </div>
             </div> */}
 
-            
-            {/* <div className="flex justify-between items-center ml-24">
+
+      {/* <div className="flex justify-between items-center ml-24">
               <img
                 src="dj1.webp" // Replace with your second image URL
                 alt="Image 2"
@@ -202,8 +202,8 @@ const FrontPage = () => {
               </div>
             </div> */}
 
-            {/* Image 3 */}
-            {/* <div className="flex justify-between items-center ml-24 ">
+      {/* Image 3 */}
+      {/* <div className="flex justify-between items-center ml-24 ">
               <img
                 src="dj2.jpeg" // Replace with your third image URL
                 alt="Image 3"
@@ -231,13 +231,13 @@ const FrontPage = () => {
           </div>
         </main> */}
 
-        {/* Footer Section */}
-      
+      {/* Footer Section */}
 
 
 
-        {/* Chatbot Button */}
-        {/* <div className="fixed bottom-4 right-4">
+
+      {/* Chatbot Button */}
+      {/* <div className="fixed bottom-4 right-4">
           <button
             className="bg-blue-500 text-white py-2 px-4 rounded-full shadow-lg"
             onClick={toggleChatbot}
@@ -246,8 +246,8 @@ const FrontPage = () => {
           </button>
         </div> */}
 
-        {/* Chatbot */}
-        {/* {isChatbotOpen && (
+      {/* Chatbot */}
+      {/* {isChatbotOpen && (
           <div
             ref={chatbotRef}
             className="fixed bottom-16 right-4 bg-white shadow-lg rounded-lg p-4 border border-gray-300"
@@ -278,37 +278,87 @@ const FrontPage = () => {
         </div>
       </footer> */}
 
-    <div className='bg-[#000000]  min-h-screen '>
-      <div className='pt-20'>
+      <div className='bg-[#000000]  min-h-screen '>
         <div className='pt-20'>
-      <div className='flex items-center justify-center text-6xl font-serif mr-24 text-white'>
-        <p className='mx-4 text-gray-300'>Think</p> <span className='text-[#8576FF] '> per</span><p className='text-[#45225a]'>sonal</p>
-        <p className='text-[#af4de8] mx-4'>CRM</p>
-        <p className='text-gray-400'>but AI first</p>
+          <div className='pt-20'>
+            <div className='flex items-center justify-center text-6xl font-serif mr-24 text-white'>
+              <p className='mx-4 text-gray-300'>Think</p> <span className='text-[#a388e9] '> per</span><p className='text-[#45225a]'>sonal</p>
+              <p className='text-[#af4de8] mx-4'>CRM</p>
+              <p className='text-gray-400'>but AI first</p>
+            </div>
+            <div className=" text-center text-xl font-serif text-gray-400 mt-10">
+              Remember everything you talked about  with the people  you met and <br />
+              grow your network in good way</div>
+          </div>
+
+          {/*for taking email */}
+          <div className='text-center mt-12 relative'>
+            <input className='py-3 px-10 font-serif rounded-xl pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>
+
+            <Link to="Concert/:id"
+              className='absolute px-4 py-3  bg-[#a388e9] text-white rounded-xl'>
+              Book Show
+            </Link>
+          </div>
+        </div>
+
+
+        <div className='flex  justify-between space-x-4 mt-[220px]  '>
+          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl  border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
+            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
+            and events. </p>
+            <br />
+            <br /><p className='text-gray-500'>From: Henry(U.S.A)</p></div>
+
+
+          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
+            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
+            and events. "</p><br />
+            <br /><p className='text-gray-500'>From: Cavin(U.S.A)</p></div>
+
+
+          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
+            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
+            and events."</p><br />
+            <br /><p className='text-gray-500'>From: alexa(U.S.A)</p></div>
+
+
+          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
+            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
+            and events.</p><br />
+            <br /><p className='text-gray-500'>From: sam(U.S.A)</p></div>
+
+        </div>
+
+        <footer className="flex flex-col items-center justify-center mt-20">
+          <div className="h-full w-full bg-gradient-to-b from-[#a388e9] to-[#d5c8f5] text-white border border-gray-600 rounded-xl flex flex-col items-center justify-center font-serif p-6">
+            <div className="text-4xl font-bold mt-10">
+              Be the first to get access
+            </div>
+            <div className="text-xl mt-4 text-center font-serif text-gray-200">
+              You can't wait any longer, just like us?<br />
+              Then sign up to our waitlist to be one of the Tickeve users.
+            </div>
+
+
+            <div className='text-center mt-12 '>
+            <input className='py-3 px-10 font-serif mr-3 rounded-xl pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>
+            <Link to="Concert/:id"
+              className=' px-6 py-4  bg-[#131314] text-white rounded-xl'>
+              Join Waitlist
+            </Link>
+            </div>
+
+          <hr className="w-full border-gray-900 mt-6" />
+          <div className="w-full  text-white font-serif flex  mt-6">
+            <p className=' w-full  text-left text-[#131314] text-3xl'>Tickeve<br/><p className='text-xl'>@ 2024</p></p>
+            <p className='w-full  text-right text-[#131314]'></p>
+            <p className='w-full text-right  text-[#131314]'>Contact us: info@tickeve.com<br/>Privacy Policy | Terms of Service</p>
+          </div>
+          </div>
+        </footer>
       </div>
-      <div className=" text-center text-xl text-gray-400 mt-10">
-        Remember everything you talked about  with the people  you met and <br/>
-        grow your network in good way</div>
-        </div>
-
-        {/*for taking email */ }
-        <div className='text-center mt-12 relative'>
-          <input className='py-3 px-10 font-serif rounded-xl pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>  
-          
-          <Link  to="Concert/:id" 
-        className='absolute px-4 py-3  bg-[#8576FF] text-white rounded-xl'>
-        Book Show
-      </Link>
-          
-        
-        </div>
-        </div>
-
-    </div>
-
-
     </>
-
   );
 };
 
