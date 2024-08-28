@@ -21,18 +21,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#04092C] p-6 shadow-lg">
+    <nav className="bg-[#000000] p-4 shadow-lg">
       <div className="container mx-auto flex flex-col">
         <div className="flex justify-between items-center">
           <Link to="/">
-            <div className="text-white text-2xl font-bold">Tickeve</div>
+            <div className="text-white text-3xl font-bold px-6">Tickeve</div>
           </Link>
           <div className="flex items-center space-x-10 relative">
-            <Link to="/" className="text-white">
+            {/* <Link to="/" className="text-white">
               Home
-            </Link>
+            </Link> */}
 
-            <div className="relative">
+            <div className="px-34 text-lg ">
               <button
                 onClick={handleDropdownClick}
                 className="text-white focus:outline-none"
@@ -72,37 +72,26 @@ const Navbar = () => {
                         Finished Events
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        to="/past"
-                        className="block px-4 py-2 hover:bg-gray-600"
-                        onClick={() => setShowDropdown(false)}
-                      >
-                        Past Events
-                      </Link>
-                    </li>
+                    
                   </ul>
                 </div>
               )}
-            </div>
-
-            <Link to="/press" className="text-white">
-              Artist
-            </Link>
-            <Link to="/contact" className="text-white">
-              Contact
-            </Link>
-            <Link to="/about" className="text-white">
-              About-Us
+            <Link to="/about" className="text-white  px-8">
+              About
             </Link>
           </div>
-          <div className="space-x-4">
-            <Link
+          <div className="mr-4">
+
+            </div>
+            {/* <Link to="/contact" className="text-white">
+              Contact
+            </Link> */}
+            {/* <Link
               to="/login"
               className="text-white py-2 px-5 rounded-xl bg-[#2C9CF0]"
             >
               Login
-            </Link>
+            </Link> */}
             <Link
               to="/signup"
               className="text-white py-2 px-5 rounded-xl border border-white"
@@ -112,8 +101,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Search Bar Section */}
-        <div className="flex justify-between items-center bg-white mt-3 p-3 rounded-lg shadow-md">
+        {/* <div className="flex justify-between items-center bg-white mt-3 p-3 rounded-lg shadow-md">
           <input
             type="text"
             placeholder="Location"
@@ -134,7 +122,7 @@ const Navbar = () => {
           >
             Search
           </button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

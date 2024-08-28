@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import bp from '../../public/r.png'
 import set from '../../public/set1.png'
 
@@ -30,8 +31,8 @@ const FrontPage = () => {
 
   return (
     <>
-      <div className="flex flex-col n">
-        <header
+      {/* <div className="flex flex-col n"> */}
+        {/* <header
           className=" bg-cover rounded-xl bg-center"
         // style={{
         //   backgroundImage: 'url("banner1.png")',
@@ -41,7 +42,7 @@ const FrontPage = () => {
 
         // }}
         >
-          {/* <div className="container mx-auto h-full flex flex-col justify-end items-start text-white p-6">
+           <div className="container mx-auto h-full flex flex-col justify-end items-start text-white p-6">
             <a
               href="login"
               className="bg-[#2C9CF0] text-white py-5 px-12 rounded-full"
@@ -52,15 +53,15 @@ const FrontPage = () => {
             >
               Book Tickets
             </a>
-          </div> */}
-        </header>
-        <div className='flex justify-center items-center mt-10' >
+          </div> 
+        </header> */}
+        {/* <div className='flex justify-center items-center mt-10' >
           <img src={bp}></img>
           <h1 class="absolute text-7xl ml-96 mb-52 w-72 text-center font-serif">Welcome to Tickeve</h1>
-          </div>
+          </div> */}
 
-        <main className="fle">
-          {/* Browser By Category Section */}
+        {/* <main className="fle">
+           Browser By Category Section 
           <div
             className=" bg-white p-6"
             style={{
@@ -78,7 +79,7 @@ const FrontPage = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Second Image */}
           {/* <div
@@ -93,12 +94,12 @@ const FrontPage = () => {
             }}
           ></div> */}
 
-          <div className='flex justify-center items-center mt-2' >
+          {/* <div className='flex justify-center items-center mt-2' >
             <img src={set}></img>
-            </div>
+            </div> */}
 
           {/* Buttons Section */}
-          <div
+          {/* <div
             className=" flex justify-between mt-5 mx-auto">
           </div>
           <div class="flex justify-center gap-56 ">
@@ -115,10 +116,10 @@ const FrontPage = () => {
             <button className="bg-[#000000] text-white py-1 px-8 rounded-xl">
               family
             </button>
-          </div>
+          </div> */}
 
           {/* Top Picks Near You Section */}
-          <div
+          {/* <div
             className=" bg-white p-6"
             style={{
 
@@ -135,10 +136,10 @@ const FrontPage = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Images and Buttons Section */}
-          <div
+          {/* <div
             className=" flex flex-col space-y-6"
             style={{
 
@@ -147,7 +148,7 @@ const FrontPage = () => {
               width: '1238px',
             }}
           >
-            {/* Image 1 */}
+            
             <div className="flex justify-between items-center ml-24">
               <img
                 src="dj.jpeg" // Replace with your first image URL
@@ -172,10 +173,10 @@ const FrontPage = () => {
                   Book Now
                 </a>
               </div>
-            </div>
+            </div> */}
 
-            {/* Image 2 */}
-            <div className="flex justify-between items-center ml-24">
+            
+            {/* <div className="flex justify-between items-center ml-24">
               <img
                 src="dj1.webp" // Replace with your second image URL
                 alt="Image 2"
@@ -199,10 +200,10 @@ const FrontPage = () => {
                   Book Now
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Image 3 */}
-            <div className="flex justify-between items-center ml-24 ">
+            {/* <div className="flex justify-between items-center ml-24 ">
               <img
                 src="dj2.jpeg" // Replace with your third image URL
                 alt="Image 3"
@@ -228,27 +229,25 @@ const FrontPage = () => {
               </div>
             </div>
           </div>
-        </main>
+        </main> */}
 
         {/* Footer Section */}
-        <div>
-
-        </div>
+      
 
 
 
         {/* Chatbot Button */}
-        <div className="fixed bottom-4 right-4">
+        {/* <div className="fixed bottom-4 right-4">
           <button
             className="bg-blue-500 text-white py-2 px-4 rounded-full shadow-lg"
             onClick={toggleChatbot}
           >
             Chat
           </button>
-        </div>
+        </div> */}
 
         {/* Chatbot */}
-        {isChatbotOpen && (
+        {/* {isChatbotOpen && (
           <div
             ref={chatbotRef}
             className="fixed bottom-16 right-4 bg-white shadow-lg rounded-lg p-4 border border-gray-300"
@@ -260,7 +259,7 @@ const FrontPage = () => {
               </button>
             </div>
             <div className="mt-2">
-              {/* Chatbot content goes here */}
+              
             </div>
           </div>
         )}
@@ -277,7 +276,37 @@ const FrontPage = () => {
           <p>Working Days: Mon - Fri, 9am - 6pm</p>
           <p className="text-sm mt-4">&copy; 2024 TickEve. All rights reserved.</p>
         </div>
-      </footer>
+      </footer> */}
+
+    <div className='bg-[#000000]  min-h-screen '>
+      <div className='pt-20'>
+        <div className='pt-20'>
+      <div className='flex items-center justify-center text-6xl font-serif mr-24 text-white'>
+        <p className='mx-4 text-gray-300'>Think</p> <span className='text-[#8576FF] '> per</span><p className='text-[#45225a]'>sonal</p>
+        <p className='text-[#af4de8] mx-4'>CRM</p>
+        <p className='text-gray-400'>but AI first</p>
+      </div>
+      <div className=" text-center text-xl text-gray-400 mt-10">
+        Remember everything you talked about  with the people  you met and <br/>
+        grow your network in good way</div>
+        </div>
+
+        {/*for taking email */ }
+        <div className='text-center mt-12 relative'>
+          <input className='py-3 px-10 font-serif rounded-xl pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>  
+          
+          <Link  to="Concert/:id" 
+        className='absolute px-4 py-3  bg-[#8576FF] text-white rounded-xl'>
+        Book Show
+      </Link>
+          
+        
+        </div>
+        </div>
+
+    </div>
+
+
     </>
 
   );
