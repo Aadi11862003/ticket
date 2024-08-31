@@ -293,10 +293,10 @@ const FrontPage = () => {
 
           {/*for taking email */}
           <div className='text-center mt-12 relative'>
-            <input className='py-3 px-10 font-serif rounded-xl pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>
+            <input className='py-3 px-10 font-serif rounded-xl mr-7 pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>
 
             <Link to="Concert/:id"
-              className='absolute px-4 py-3  bg-[#a388e9] text-white rounded-xl'>
+              className='absolute px-4 py-2 bg-[#a388e9] text-white border border-white rounded-xl'>
               Book Show
             </Link>
           </div>
@@ -361,6 +361,13 @@ const FrontPage = () => {
           </div>
           </div>
         </footer>
+
+        <div className='fixed bottom-1 right-3'>
+  <button className='border rounded-xl p-2 bg-black border border-gray-200 text-gray-200 animate'>
+    Chat-bot
+  </button>
+</div>
+
       </div>
     </>
   );
