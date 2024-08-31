@@ -63,7 +63,7 @@ const SignupPage = () => {
             <div className="flex justify-center">
               <Link to="/login">
                 <button className="overflow-hidden w-40 p-2 h-12 border border-black bg-gray-400 font-serif text-black hover:text-gray-600 rounded-lg text-xl font-bold cursor-pointer relative z-10 group">
-                  Sign Up
+                  SignUp
                 </button>
               </Link>
             </div>
