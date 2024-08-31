@@ -351,7 +351,9 @@ const FrontPage = () => {
 
           <hr className="w-full border-gray-900 mt-6" />
           <div className="w-full  text-white font-serif flex  mt-6">
-            <p className=' w-full  text-left text-[#131314] text-3xl'>Tickeve<br/><p className='text-xl'>@ 2024</p></p>
+            <p className=' w-full  text-left text-[#131314] text-3xl'>
+              Tickeve
+              <br/><p className='text-xl'>@ 2024</p></p>
             <p className='w-full  text-right text-[#131314]'></p>
             <p className='w-full text-right  text-[#131314]'>
               <Link to="contact">
