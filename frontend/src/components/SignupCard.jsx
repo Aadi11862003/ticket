@@ -21,6 +21,7 @@ const SignupPage = () => {
               <input
                 type="text"
                 id="first-name"
+                placeholder='Enter name here!'
                 className="w-full px-4 py-2 mt-2 bg-gray-300 border border-gray-600 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-300"
                 required
               />
@@ -30,6 +31,7 @@ const SignupPage = () => {
               <input
                 type="email"
                 id="email"
+                placeholder='Enter email here!'
                 className="w-full px-4 py-2 mt-2 bg-gray-300 border border-gray-600 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-300"
                 required
               />
@@ -39,6 +41,7 @@ const SignupPage = () => {
               <input
                 type="password"
                 id="password"
+                placeholder='Enter password here!'
                 className="w-full px-4 py-2 mt-2 bg-gray-300 border border-gray-600 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-300"
                 required
               />
@@ -48,6 +51,7 @@ const SignupPage = () => {
               <input
                 type="text"
                 id="pet-name"
+                placeholder='Enter key here!'
                 className="w-full px-4 py-2 mt-2 bg-gray-300 border border-gray-600 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-300"  
                 required
               />
