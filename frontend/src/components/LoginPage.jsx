@@ -30,7 +30,7 @@ const LoginPage = () => {
 
       {/* Right Side - Login Form */}
       <div className="w-1/3 p-8 mb-12 bg-gray-200 rounded-xl">
-        <h2 className="text-3xl font-bold text-black font-serif mb-6 text-center">Tickeve</h2> {/* Updated text color */}
+        <h2 className="text-4xl font-bold text-black font-serif mb-6 text-center">Tickeve</h2> {/* Updated text color */}
         <form onSubmit={handleLogin}>
           <div className="mb-8  ">
             <label htmlFor="email" className="block font-serif text-black">Email:</label> {/* Updated text color */}

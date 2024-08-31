@@ -353,7 +353,11 @@ const FrontPage = () => {
           <div className="w-full  text-white font-serif flex  mt-6">
             <p className=' w-full  text-left text-[#131314] text-3xl'>Tickeve<br/><p className='text-xl'>@ 2024</p></p>
             <p className='w-full  text-right text-[#131314]'></p>
-            <p className='w-full text-right  text-[#131314]'>Contact us: info@tickeve.com<br/>Privacy Policy | Terms of Service</p>
+            <p className='w-full text-right  text-[#131314]'>
+              <Link to="contact">
+              Contact us: info@tickeve.com
+              </Link>
+              <br/>Privacy Policy | Terms of Service</p>
           </div>
           </div>
         </footer>
