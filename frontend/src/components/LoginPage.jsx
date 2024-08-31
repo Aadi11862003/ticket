@@ -14,8 +14,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-[#b5d7f2]"> {/* Changed background color */}
-      <div className="flex max-w-4xl w-full bg-[#fbf8f8] rounded-lg shadow-lg overflow-hidden">
+
+    <div className="flex justify-center items-center h-screen bg-black"> {/* Changed background color */}
+      <div className="flex max-w-4xl w-full bg-[#191919] rounded-lg shadow-lg overflow-hidden"> {/* Updated background color */}
         {/* Left Side - Image */}
         <div className="w-1/2">
           <img src={image} alt="Login" className="w-full h-full object-cover" />
@@ -23,44 +24,39 @@ const LoginPage = () => {
 
         {/* Right Side - Login Form */}
         <div className="w-1/2 p-8">
-          <h2 className="text-2xl font-bold text-[#430A5D] mb-6 text-center">Tickeve</h2>
+          <h2 className="text-2xl font-bold text-gray-200 mb-6 text-center">Tickeve</h2> {/* Updated text color */}
           <form onSubmit={handleLogin}>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-[#430A5D]">Email:</label>
+              <label htmlFor="email" className="block text-gray-400">Email:</label> {/* Updated text color */}
               <input
                 type="email"
                 id="email"
-                className="w-full px-4 py-2 mt-2 bg-[#c09f9f] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
+                className="w-full px-4 py-2 mt-2 bg-[#2c2c2c] border border-gray-400 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-500 focus:bg-[#191919]" /* Updated colors */
                 required
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="password" className="block text-[#430A5D]">Password:</label>
+              <label htmlFor="password" className="block text-gray-400">Password:</label> {/* Updated text color */}
               <input
                 type="password"
                 id="password"
-                className="w-full px-4 py-2 mt-2 bg-[#c09f9f] border border-[#430A5D] rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-[#8C6A5D] focus:bg-white"
+                className="w-full px-4 py-2 mt-2 bg-[#2c2c2c] border border-gray-400 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-gray-500 focus:bg-[#191919]" /* Updated colors */
                 required
               />
             </div>
             <div className="flex justify-between items-center mb-6">
-              <div className="text-[#430A5D] hover:text-[#5F374B] cursor-pointer">Forgot Password?</div>
+              <div className="text-gray-400 hover:text-gray-200 cursor-pointer">Forgot Password?</div> {/* Updated text color */}
               <Link to="/signup">
-                <div className="text-[#430A5D] hover:text-[#5F374B] cursor-pointer">Sign Up</div>
+                <div className="text-gray-400 hover:text-gray-200 cursor-pointer">Sign Up</div> {/* Updated text color */}
               </Link>
             </div>
             <div className="flex justify-center">
               <button
                 type="submit"
-                className="overflow-hidden w-48 p-2 h-12 bg-[#5F374B] text-white rounded-lg text-xl font-bold cursor-pointer relative z-10 group"
+                className="overflow-hidden w-48 p-2 h-12 bg-[#a388e9] text-white text-gray-400 rounded-lg text-xl font-bold cursor-pointer relative z-10 group"
               >
                 Log In
-                <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#8C6A5D] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-1000 origin-left"></span>
-                <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#5F374B] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 origin-left"></span>
-                <span className="absolute w-48 h-48 -top-12 -left-4 bg-[#430A5D] rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
-                <span className="group-hover:opacity-100 duration-1000 opacity-0 absolute top-2 left-10 z-10">
-                  Loading...
-                </span>
+                
               </button>
             </div>
           </form>
@@ -71,4 +67,5 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
 
