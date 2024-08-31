@@ -10,6 +10,8 @@ import Finished from './components/FinishedEventDetail';
 import Live from './components/LiveEventsPage';
 import Contact from './components/ContactPage';
 import About from './components/AboutUsPage';
+import Chatbot from './components/chatbot'
+// import Index from './components/index' 
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Route path="/live" element={<Live />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/chat" element={<Chatbot />} />
+          {/* <Route path="/index" element={<Index />} /> */}
           
          
         </Routes>

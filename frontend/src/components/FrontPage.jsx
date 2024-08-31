@@ -363,12 +363,13 @@ const FrontPage = () => {
           </div>
           </div>
         </footer>
-
-        <div className='fixed bottom-1 right-3'>
-  <button className='border rounded-xl p-2 bg-black border border-gray-200 text-gray-200 animate'>
-    Chat-bot
-  </button>
-</div>
+        <Link to="chat">
+          <div className='fixed bottom-1 right-3'>
+            <button className=' rounded-xl p-2 bg-black border border-gray-200 text-gray-200 animate'>
+              Chat-bot
+            </button>
+          </div>
+        </Link>
 
       </div>
     </>
