@@ -95,13 +95,13 @@ const UpcomingShows = () => {
   );
 };
 
-// const App = () => {
-//   return (
-//     <div className="bg-black h-screen">
+const App = () => {
+  return (
+    <div className="bg-black h-screen">
       
-//       <UpcomingShows />
-//     </div>
-//   );
-// };
+      <UpcomingShows />
+    </div>
+  );
+};
 
-// export default App;
+export default App;
