@@ -79,10 +79,20 @@ const Navbar = () => {
             <Link to="/about" className="text-white  px-8">
               About
             </Link>
-          </div>
-          <div className="mr-4">
 
-            </div>
+            <Link to="/price" className="text-white ">
+              Price
+            </Link>
+          </div>
+          
+          {/* <div className="mr-9">
+          <button
+                onClick={handleDropdownClick}
+                className="text-white focus:outline-none"
+              >
+                Price
+              </button>
+            </div> */}
             {/* <Link to="/contact" className="text-white">
               Contact
             </Link> */}

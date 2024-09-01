@@ -11,6 +11,7 @@ import Live from './components/LiveEventsPage';
 import Contact from './components/ContactPage';
 import About from './components/AboutUsPage';
 import Chatbot from './components/chatbot'
+import Price from './components/price'
 // import Index from './components/index' 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/chat" element={<Chatbot />} />
+          <Route path="/price" element={<Price />} />
           {/* <Route path="/index" element={<Index />} /> */}
           
          
