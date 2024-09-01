@@ -302,8 +302,10 @@ const FrontPage = () => {
           </div>
         </div>
 
-
-        <div className='flex  justify-between space-x-4 mt-[220px]  '>
+        <div className=' flex justify-center items-center mb-9  text-white mt-[220px]'>
+          <p className='bg-gray-600 w-full text-center py-3 text-3xl font-serif border rounded-lg'>Reviews</p>
+          </div>
+        <div className='flex  justify-between space-x-4'>
           <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl  border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
             and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
             and events. </p>
