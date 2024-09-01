@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+//import img from '../../public/ai.png'
 function ChatPage() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
@@ -116,8 +116,9 @@ function ChatPage() {
           </p>
         </div>
       </div>
+    
 
-      <div className="w-full max-w-2xl p-4  mb-10 border rounded-xl bg-black border-t border-gray-300">
+      <div className=" w-full max-w-2xl p-4  mb-10 border rounded-xl bg-black border-t border-gray-300">
         <div className="flex items-center space-x-4">
           <input
             type="text"
