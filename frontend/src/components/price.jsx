@@ -8,7 +8,7 @@ const SubscriptionPricing = () => {
         
 <div className="flex items-center justify-center h-screen bg-black">
     <div className="flex flex-col items-center w-full p-6">
-        <div className="text-center mb-[133px]">
+        <div className="text-center mb-[113px]">
             <p className="text-5xl text-white font-bold">Subscription</p>
         </div>
 
@@ -23,7 +23,7 @@ const SubscriptionPricing = () => {
                     <li>Only valid for 1 task</li>
                 </ul>
                 <div className='flex justify-center'>
-                    <button className="bg-[#9e7df1] border border-black text-white px-4 py-2 rounded-lg hover:bg-[#a488ed] focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button className="bg-[#9e7df1] border border-black text-white px-4 py-2 rounded-lg hover:bg-[#a488ed] ">
                         Subscribe Now
                     </button>
                 </div>
@@ -39,7 +39,7 @@ const SubscriptionPricing = () => {
                     <li>Unlimited Booking</li>
                 </ul>
                 <div className='flex justify-center'>
-                    <button className="bg-[#9e7df1] border border-black  text-white px-4 py-2 rounded-lg hover:bg-[#a488ed] focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button className="bg-[#9e7df1] border border-black  text-white px-4 py-2 rounded-lg hover:bg-[#a488ed] ">
                         Subscribe Now
                     </button>
                 </div>
@@ -55,7 +55,7 @@ const SubscriptionPricing = () => {
                     <li>Unlimited Booking</li>
                 </ul>
                 <div className='flex justify-center'>
-                    <button className="bg-[#9e7df1] border border-black text-white px-4 py-2 rounded-lg hover:bg-[#a488ed] focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button className="bg-[#9e7df1] border border-black text-white px-4 py-2 rounded-lg hover:bg-[#a488ed] ">
                         Subscribe Now
                     </button>
                 </div>
