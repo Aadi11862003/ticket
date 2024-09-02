@@ -39,7 +39,7 @@ const ConcertDetail = () => {
   };
 
   return (
-    <div className="upcoming-shows">
+    <div className="upcoming-shows bg-black">
     <div className="line flex bg-black m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
