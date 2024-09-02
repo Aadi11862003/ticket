@@ -23,7 +23,7 @@ function App() {
           <Route path="/" element={<FrontPage />} /> {/* Render FrontPage on root path */}
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<Sign />} />
-          <Route path="/update" element={<Update />} />
+{/*           <Route path="/update" element={<Update />} /> */}
           <Route path="/Concert/:id" element={<Concert />} />
           <Route path="/finish" element={<Finished />} />
           <Route path="/live" element={<Live />} />
