@@ -28,7 +28,7 @@ const teamMembers = [
 const AboutUs = () => {
     return (
         <div className="bg-black py-16 px-6 md:px-24">
-            <div className="max-w-5xl mx-auto bg-white text-violet-300 p-10 rounded-xl shadow-xl">
+            <div className="max-w-5xl mx-auto bg-gray-300 text-violet-300 p-10 rounded-xl shadow-xl">
                 <h1 className="text-5xl font-extrabold text-center text-violet-400 mb-8">
                     About Us
                 </h1>
