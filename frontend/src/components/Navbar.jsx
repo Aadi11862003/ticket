@@ -47,7 +47,7 @@ const Navbar = () => {
                   <ul className="py-1">
                     <li>
                       <Link
-                        to="https://aashwinxgarg.github.io/Tickeve-frontend-designs/"
+                        to="/Concert/:id"
                         className="block px-4 py-2 hover:bg-gray-600"
                         onClick={() => setShowDropdown(false)}
                       >
