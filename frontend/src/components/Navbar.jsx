@@ -77,12 +77,13 @@ const Navbar = () => {
                 </div>
               )}
             <Link to="/about" className="text-white  px-8">
-              about
+              About
             </Link>
-            <Link to="/price" className="text-white  px-8">
+
+            <Link to="/price" className="text-white  ">
               Price
             </Link>
-          </div>
+            
           </div>
           
             {/* <Link to="/contact" className="text-white">
