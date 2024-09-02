@@ -6,7 +6,6 @@ import img3 from '../../public/aakash.jpg';
 import img4 from '../../public/shashi.jpg';
 import img5 from '../../public/aujla2.jpeg';
 import img6 from '../../public/bassi.jpg';
-import './bg.css'
 
 const HomePage = () => {
   return (
