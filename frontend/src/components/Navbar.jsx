@@ -79,10 +79,12 @@ const Navbar = () => {
             <Link to="/about" className="text-white  px-8">
               About
             </Link>
+            <Link to="/price" className="text-white  px-8">
+              Price
+            </Link>
           </div>
-          <div className="mr-4">
-
-            </div>
+          </div>
+          
             {/* <Link to="/contact" className="text-white">
               Contact
             </Link> */}
