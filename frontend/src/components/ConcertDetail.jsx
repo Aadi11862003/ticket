@@ -39,8 +39,7 @@ const ConcertDetail = () => {
   };
 
   return (
-    <div class="upcoming-shows">
-        <div class="line flex bg-black m-auto w-11/12 mt-2">
+    <div class="line flex bg-black m-auto w-11/12 mt-2">
             <div class="tile-1 bg-slate-900 text-white flex m-4">
                 <div class="left">
                     <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" class="w-72 p-2">
@@ -220,8 +219,6 @@ const ConcertDetail = () => {
                 </div>
             </div>
         </div>
-        
-    </div>
   );
 };
 
