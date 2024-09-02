@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img1 from "../images/arijit2.jpg"; 
+import img1 from "../../public/arijit2.jpg"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTicketAlt, faCalendarAlt, faClock, faUser, faHourglassHalf, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import './finished.css';
