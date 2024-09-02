@@ -1,84 +1,181 @@
-import React from 'react';
-import img1 from '../../public/img1.jpg'; // Replace with actual image URLs
-import img2 from '../../public/images.jpeg';
-import img3 from '../../public/img3.webp';
-import img4 from '../../public/img4.webp';
+import React from "react";
+import { Link } from "react-router-dom"; 
+import img1 from '../../public/arijit2.jpg';
+import img2 from '../../public/armaan2.jpg';
+import img3 from '../../public/aakash.jpg';
+import img4 from '../../public/shashi.jpg';
+import img5 from '../../public/aujla2.jpeg';
+import img6 from '../../public/bassi.jpg';
+import './bg.css'
 
-// Sample data for finished events
-const finishedEvents = [
-  {
-    title: "Concert A",
-    image: img1,
-    totalTickets: 250,
-    date: "2024-07-20",
-    location: "Hollywood Bowl, Los Angeles",
-    description: "An exhilarating concert with a stunning lineup of performers. It was a night to remember with vibrant energy and spectacular shows.",
-  },
-  {
-    title: "Concert B",
-    image: img2,
-    totalTickets: 300,
-    date: "2024-08-15",
-    location: "Madison Square Garden, New York",
-    description: "A fantastic concert featuring top artists. This event was a huge success with an amazing turnout and unforgettable performances.",
-  },
-  {
-    title: "Concert C",
-    image: img3,
-    totalTickets: 180,
-    date: "2024-09-10",
-    location: "Royal Albert Hall, London",
-    description: "A memorable evening of classical music and opera. The concert was well-received by an enthusiastic audience and featured renowned musicians.",
-  },
-  {
-    title: "Concert D",
-    image: img4,
-    totalTickets: 400,
-    date: "2024-10-05",
-    location: "Sydney Opera House, Sydney",
-    description: "An amazing event showcasing a variety of genres and performances. The concert received rave reviews for its diverse lineup and excellent organization.",
-  },
-];
-
-const FinishedEventDetail = () => {
+const HomePage = () => {
   return (
-    <div className="p-8 bg-[#b8d3e7] min-h-screen">
-      <h1 className="text-4xl font-extrabold mb-6 text-center">Finished Events</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {finishedEvents.map((event, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
+    <div className="bg-black min-h-screen text-white p-0 m-0">
+      <div className="finished-shows">
+        {/* First Row */}
+        <div className="line flex flex-wrap justify-between bg-black m-auto w-11/12 mt-4">
+          {/* Arijit Singh Show */}
+          <div className="tile bg-slate-900 text-white flex flex-col items-center m-4">
             <img
-              src={event.image}
-              alt={event.title}
-              className="w-full h-48 object-cover rounded-lg mb-4"
+              src={img1}
+              alt="Arijit Singh Show"
+              className="w-72 h-40 object-cover" // Ensure consistent height
             />
-            
-            {/* Event Details */}
-            <h2 className="text-2xl font-bold mb-2">{event.title}</h2>
-            <div className="mb-2">
-              <p className="text-lg font-semibold">Total Tickets Sold:</p>
-              <p className="text-base">{event.totalTickets}</p>
-            </div>
-            
-            <div className="mb-2">
-              <p className="text-lg font-semibold">Date:</p>
-              <p className="text-base">{event.date}</p>
-            </div>
-
-            <div className="mb-2">
-              <p className="text-lg font-semibold">Location:</p>
-              <p className="text-base">{event.location}</p>
-            </div>
-
-            <div>
-              <p className="text-lg font-semibold">Description:</p>
-              <p className="text-base">{event.description}</p>
+            <div className="textt w-72 mt-2">
+              <div className="title text-violet-400 font-serif text-center">
+                Concert A - Arijit Singh Show
+              </div>
+              <div className="desc font-serif text-violet-200 text-center mt-1">
+                Experience the soulful melodies of Arijit Singh live, as he brings his mesmerizing
+                voice to the stage, captivating audiences with his heartfelt performances.
+              </div>
+              <div className="flex justify-center mt-2">
+                <Link
+                  to="/detailsFinsihed"
+                  className="bg-black text-violet-300 p-2 font-serif rounded-xl details-button"
+                >
+                  Details
+                </Link>
+              </div>
             </div>
           </div>
-        ))}
+
+          {/* Armaan Malik Show */}
+          <div className="tile bg-slate-900 text-white flex flex-col items-center m-4">
+            <img
+              src={img2}
+              alt="Armaan Malik"
+              className="w-72 h-40 object-cover" // Ensure consistent height
+            />
+            <div className="textt w-72 mt-2">
+              <div className="title text-violet-400 font-serif text-center">
+                Concert B - Armaan Malik Show
+              </div>
+              <div className="desc font-serif text-violet-200 text-center mt-1">
+                Get ready to groove with Armaan Malik's electrifying live performance,
+                filled with her chart-topping hits and infectious energy.
+              </div>
+              <div className="flex justify-center mt-2">
+                <Link
+                  to="/detailsFinsihed"
+                  className="bg-black text-violet-300 p-2 font-serif rounded-xl details-button"
+                >
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Akash Gupta Show */}
+          <div className="tile bg-slate-900 text-white flex flex-col items-center m-4">
+            <img
+              src={img3}
+              alt="Akash Gupta Show"
+              className="w-72 h-40 object-cover" // Ensure consistent height
+            />
+            <div className="textt w-72 mt-2">
+              <div className="title text-violet-400 font-serif text-center">
+                Concert C - Akash Gupta Show
+              </div>
+              <div className="desc font-serif text-violet-200 text-center mt-1">
+                Laugh out loud with Akash Gupta's hilarious stand-up comedy, where everyday life meets
+                side-splitting humor and witty observations.
+              </div>
+              <div className="flex justify-center mt-2">
+                <Link
+                  to="/detailsFinsihed"
+                  className="bg-black text-violet-300 p-2 font-serif rounded-xl details-button"
+                >
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Second Row */}
+        <div className="line flex flex-wrap justify-between bg-black m-auto w-11/12 mt-4">
+          {/* Shashi Dhiman Show */}
+          <div className="tile bg-slate-900 text-white flex flex-col items-center m-4">
+            <img
+              src={img4}
+              alt="Shashi Dhiman Show"
+              className="w-72 h-40 object-cover" // Ensure consistent height
+            />
+            <div className="textt w-72 mt-2">
+              <div className="title text-violet-400 font-serif text-center">
+                Concert D - Shashi Dhiman Show
+              </div>
+              <div className="desc font-serif text-violet-200 text-center mt-1">
+                Experience the wit and charm of Shashi Dhiman as he delivers punchlines that
+                will leave you in stitches and wanting more.
+              </div>
+              <div className="flex justify-center mt-2">
+                <Link
+                  to="/shashiDetails"
+                  className="bg-black text-violet-300 p-2 font-serif rounded-xl details-button"
+                >
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Karan Aujla Show */}
+          <div className="tile bg-slate-900 text-white flex flex-col items-center m-4">
+            <img
+              src={img5}
+              alt="Karan Aujla Show"
+              className="w-72 h-40 object-cover" // Ensure consistent height
+            />
+            <div className="textt w-72 mt-2">
+              <div className="title text-violet-400 font-serif text-center">
+                Concert E - Karan Aujla Show
+              </div>
+              <div className="desc font-serif text-violet-200 text-center mt-1">
+                Get ready for an electrifying night with Karan Aujla, as he brings his
+                high-energy Punjabi beats and hit tracks to the stage.
+              </div>
+              <div className="flex justify-center mt-2">
+                <Link
+                  to="/detailsFinsihed"
+                  className="bg-black text-violet-300 p-2 font-serif rounded-xl details-button"
+                >
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Anubhav Bassi Show */}
+          <div className="tile bg-slate-900 text-white flex flex-col items-center m-4">
+            <img
+              src={img6}
+              alt="Anubhav Bassi Show"
+              className="w-72 h-40 object-cover" // Ensure consistent height
+            />
+            <div className="textt w-72 mt-2">
+              <div className="title text-violet-400 font-serif text-center">
+                Concert F - Anubhav Bassi Show
+              </div>
+              <div className="desc font-serif text-violet-200 text-center mt-1">
+                Laugh out loud with Anubhav Bassi as he takes you on a hilarious journey
+                through his witty anecdotes and relatable stories.
+              </div>
+              <div className="flex justify-center mt-2">
+                <Link
+                  to="/detailsFinsihed"
+                  className="bg-black text-violet-300 p-2 font-serif rounded-xl details-button"
+                >
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default FinishedEventDetail;
+export default HomePage;
