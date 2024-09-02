@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import FrontPage from './components/FrontPage'; // Import FrontPage
 import LoginPage from './components/LoginPage';
 import Sign from './components/SignupCard';
-import Update from './components/UpcomingEvents';
 import Concert from './components/ConcertDetail';
 import Finished from './components/FinishedEventDetail';
 import Live from './components/LiveEventsPage';
