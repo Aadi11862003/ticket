@@ -77,7 +77,7 @@ const Navbar = () => {
                 </div>
               )}
             <Link to="/about" className="text-white  px-8">
-              About
+              about us
             </Link>
             <Link to="/price" className="text-white  px-8">
               Price
