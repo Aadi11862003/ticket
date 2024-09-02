@@ -39,121 +39,188 @@ const ConcertDetail = () => {
   };
 
   return (
-    <div className="p-8 bg-[#b5d1e5] min-h-screen flex flex-col items-center">
-      <h1 className="text-4xl font-extrabold mb-6 text-center">{concert.title}</h1>
-      <div className="bg-white p-6 rounded-lg shadow-lg max-w-3xl w-full">
-        <img src={concert.image} alt={concert.title} className="w-full h-74 object-cover rounded-lg mb-6" />
-        
-        {/* Price Information */}
-        <div className="mb-6">
-          <p className="text-2xl font-bold mb-2">Price per person:</p>
-          <div className="flex flex-col md:flex-row gap-4 mb-4">
-            <div className="p-4 bg-blue-100 rounded-lg shadow-md text-center">
-              <h2 className="text-lg font-bold mb-1">Basic</h2>
-              <p className="text-2xl font-bold">${concert.price.basic}</p>
+    <div class="upcoming-shows">
+        <div class="line flex bg-black m-auto w-11/12 mt-2">
+            <div class="tile-1 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert A - Arijit Singh Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
             </div>
-            <div className="p-4 bg-green-100 rounded-lg shadow-md text-center">
-              <h2 className="text-lg font-bold mb-1">Low</h2>
-              <p className="text-2xl font-bold">${concert.price.low}</p>
+            <div class="tile-2 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://media.insider.in/image/upload/c_crop,g_custom/v1645438549/qz8jfwv53q0es99epiae.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert B - Zakir Khan Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
             </div>
-            <div className="p-4 bg-yellow-100 rounded-lg shadow-md text-center">
-              <h2 className="text-lg font-bold mb-1">High</h2>
-              <p className="text-2xl font-bold">${concert.price.premium}</p>
+        </div>
+        <div class="line flex bg-black m-auto w-11/12 mt-2">
+            <div class="tile-1 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert C - Diljit Dosanjh Concert</div>
+                        <div class="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center items-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="tile-2 bg-slate-900 text-white flex m-4">
+                <div class="left flex items-center">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00405942-amnmqenlfx-landscape.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert D - Karan Aujla Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line flex bg-black m-auto w-11/12 mt-2">
+            <div class="tile-1 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert A - Arijit Singh Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tile-2 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://media.insider.in/image/upload/c_crop,g_custom/v1645438549/qz8jfwv53q0es99epiae.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert B - Zakir Khan Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line flex bg-black m-auto w-11/12 mt-2">
+            <div class="tile-1 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert C - Diljit Dosanjh Concert</div>
+                        <div class="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center items-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tile-2 bg-slate-900 text-white flex m-4">
+                <div class="left flex items-center">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00405942-amnmqenlfx-landscape.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert D - Karan Aujla Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line flex bg-black m-auto w-11/12 mt-2">
+            <div class="tile-1 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert A - Arijit Singh Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tile-2 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://media.insider.in/image/upload/c_crop,g_custom/v1645438549/qz8jfwv53q0es99epiae.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert B - Zakir Khan Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line flex bg-black m-auto w-11/12 mt-2">
+            <div class="tile-1 bg-slate-900 text-white flex m-4">
+                <div class="left">
+                    <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert C - Diljit Dosanjh Concert</div>
+                        <div class="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center items-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tile-2 bg-slate-900 text-white flex m-4">
+                <div class="left flex items-center">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00405942-amnmqenlfx-landscape.jpg" alt="" class="w-72 p-2">
+                </div>
+                <div class="right">
+                    <div class="textt w-80 m-2">
+                        <div class="title text-violet-400 font-serif ">Concert D - Karan Aujla Show</div>
+                        <div class="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
+                    </div>
+                    <div class="rightt-2 flex justify-center">
+                        <a href="detailsUpcomingConcerts.html" class="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        {/* Additional Details */}
-        <div className="mb-6">
-          <p className="text-gray-700 text-lg mb-2"><span className="font-bold">Total Seats:</span> {concert.totalSeats}</p>
-          <p className="text-gray-700 text-lg mb-2"><span className="font-bold">Available Seats:</span> {concert.availableSeats}</p>
-          <p className="text-gray-700 text-lg mb-6"><span className="font-bold">Slots:</span> {concert.slots}</p>
-        </div>
-
-        {/* Ticket Purchase Form */}
-        <form onSubmit={handleSubmit}>
-          {/* Ticket Type Selection */}
-          <div className="mb-6">
-            <label htmlFor="ticketType" className="block text-gray-700 font-medium mb-2">Select Ticket Type:</label>
-            <select
-              id="ticketType"
-              value={ticketType}
-              onChange={(e) => setTicketType(e.target.value)}
-              className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
-              required
-            >
-              <option value="basic">Basic - ${concert.price.basic}</option>
-              <option value="low">Low - ${concert.price.low}</option>
-              <option value="high">High - ${concert.price.premium}</option>
-            </select>
-          </div>
-
-          <div className="mb-6">
-            <label htmlFor="ticketQuantity" className="block text-gray-700 font-medium mb-2">Ticket Quantity:</label>
-            <input
-              type="number"
-              id="ticketQuantity"
-              value={ticketQuantity}
-              onChange={handleQuantityChange}
-              min="1"
-              className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
-              required
-            />
-          </div>
-          <div className="mb-6">
-            <label htmlFor="couponCode" className="block text-gray-700 font-medium mb-2">Coupon Code (if applicable):</label>
-            <input
-              type="text"
-              id="couponCode"
-              value={couponCode}
-              onChange={(e) => setCouponCode(e.target.value)}
-              className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
-            />
-          </div>
-          <div className="mb-6">
-            <label htmlFor="studentID" className="block text-gray-700 font-medium mb-2">Student ID (if applicable):</label>
-            <input
-              type="text"
-              id="studentID"
-              value={studentID}
-              onChange={(e) => setStudentID(e.target.value)}
-              className="w-full px-4 py-2 bg-gray-200 border border-gray-300 rounded-md shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
-            />
-          </div>
-          <div className="mb-6">
-            <label className="block text-gray-700 font-medium mb-2">Payment Method:</label>
-            <div className="flex flex-col gap-4">
-              <div className="flex items-center">
-                <input
-                  type="radio"
-                  id="upi"
-                  name="paymentMethod"
-                  value="upi"
-                  checked={paymentMethod === 'upi'}
-                  onChange={() => setPaymentMethod('upi')}
-                  className="mr-2"
-                />
-                <label htmlFor="upi" className="text-gray-700">UPI</label>
-              </div>
-              <div className="flex items-center">
-                <input
-                  type="radio"
-                  id="creditCard"
-                  name="paymentMethod"
-                  value="creditCard"
-                  checked={paymentMethod === 'creditCard'}
-                  onChange={() => setPaymentMethod('creditCard')}
-                  className="mr-2"
-                />
-                <label htmlFor="creditCard" className="text-gray-700">Credit Card</label>
-              </div>
-            </div>
-          </div>
-          <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
-            Purchase Ticket
-          </button>
-        </form>
-      </div>
     </div>
   );
 };
