@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import bp from '../../public/r.png'
 import set from '../../public/set1.png'
+import video from '../../public/v-1.mp4'
 
 const FrontPage = () => {
   const [isChatbotOpen, setChatbotOpen] = useState(false);
@@ -278,103 +279,129 @@ const FrontPage = () => {
         </div>
       </footer> */}
 
-      <div className='bg-[#000000]  min-h-screen '>
-        <div className='pt-20'>
-          <div className='pt-20'>
-            <div className='flex items-center justify-center text-6xl font-serif mr-24 text-white'>
-              <p className='mx-4 text-gray-300'>Think</p> <span className='text-[#a388e9] '> per</span><p className='text-[#45225a]'>sonal</p>
-              <p className='text-[#af4de8] mx-4'>CRM</p>
-              <p className='text-gray-400'>but AI first</p>
-            </div>
-            <div className=" text-center text-xl font-serif text-gray-400 mt-10">
-              Remember everything you talked about  with the people  you met and <br />
-              grow your network in good way</div>
-          </div>
-
-          {/*for taking email */}
-          <div className='text-center mt-12 '>
-            <input className='py-3 px-10 font-serif rounded-xl mr-7 pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>
-
-            <Link to="Concert/:id"
-              className='absolute px-4 py-2 bg-[#a388e9] text-white border border-white rounded-xl'>
-              Book Show
-            </Link>
-          </div>
-        </div>
-
-        <div className=' flex justify-center items-center mb-9  text-white mt-[220px]'>
-          <p className='bg-[#191919] w-full text-center py-3 text-3xl font-serif border border-black rounded-lg'>Reviews</p>
-          </div>
-
-        <div className='flex  justify-between space-x-4'>
-          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl  border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
-            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
-            and events. </p>
-            <br />
-            <br /><p className='text-gray-500'>From: Henry(U.S.A)</p></div>
-
-
-          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
-            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
-            and events. "</p><br />
-            <br /><p className='text-gray-500'>From: Cavin(U.S.A)</p></div>
-
-
-          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
-            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
-            and events."</p><br />
-            <br /><p className='text-gray-500'>From: alexa(U.S.A)</p></div>
-
-
-          <div className='h-45 w-1/4 text-center  text-gray-300 font-serif border rounded-xl border-gray-600'><p className='mt-4'>"I've been using this ticket booking platform for months now,
-            and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts
-            and events.</p><br />
-            <br /><p className='text-gray-500'>From: sam(U.S.A)</p></div>
-
-        </div>
-
-        <footer className="flex flex-col items-center justify-center mt-20">
-          <div className="h-full w-full bg-gradient-to-b from-[#a388e9] to-[#d5c8f5] text-white border border-gray-600 rounded-xl flex flex-col items-center justify-center font-serif p-6">
-            <div className="text-4xl font-bold mt-10">
-              Be the first to get access
-            </div>
-            <div className="text-xl mt-4 text-center font-serif text-gray-200">
-              You can't wait any longer, just like us?<br />
-              Then sign up to our waitlist to be one of the Tickeve users.
-            </div>
-
-
-            <div className='text-center mt-12 '>
-            <input className='py-3 px-10 font-serif mr-3 rounded-xl pr-14 text-center text-white bg-[#191919]' type='Email' placeholder='Email Address'></input>
-            <Link to="Concert/:id"
-              className=' px-6 py-4  bg-[#131314] text-white rounded-xl'>
-              Join Waitlist
-            </Link>
-            </div>
-
-          <hr className="w-full border-gray-900 mt-6" />
-          <div className="w-full  text-white font-serif flex  mt-6">
-            <p className=' w-full  text-left text-[#131314] text-3xl'>
-              Tickeve
-              <br/><p className='text-xl'>@ 2024</p></p>
-            <p className='w-full  text-right text-[#131314]'></p>
-            <p className='w-full text-right  text-[#131314]'>
-              <Link to="contact">
-              Contact us: info@tickeve.com
-              </Link>
-              <br/>Privacy Policy | Terms of Service</p>
-          </div>
-          </div>
-        </footer>
-        <Link to="chat">
-          <div className='fixed bottom-1 right-3'>
-            <button className=' rounded-xl p-2 bg-black border border-gray-200 text-gray-200 animate'>
-              Chat-bot
-            </button>
-          </div>
-        </Link>
-
+<div className='bg-[#191919] min-h-screen'>
+  <div className=''>
+    <div className='pt-[150px]'>
+      <div className='flex items-center justify-center text-6xl font-serif mr-24 text-white'>
+        <p className='mx-4 text-gray-300'>Think</p> 
+        <span className='text-[#a388e9]'>per</span>
+        <p className='text-[#45225a99]'>sonal</p>
+        <p className='text-[#af4de8] mx-4'>CRM</p>
+        <p className='text-gray-400'>but AI first</p>
       </div>
+      <div className="text-center text-xl font-serif text-gray-400 mt-10">
+        Remember everything you talked about with the people you met and<br />
+        grow your network in a good way
+      </div>
+    </div>
+
+    {/* Email input and Book Show button */}
+    <div className='text-center mt-12'>
+      <input
+        className='py-3 px-10 font-serif rounded-xl mr-7 pr-14 text-center text-white bg-[#191919]'
+        type='Email'
+        placeholder='Email Address'
+      />
+      <Link to="Concert/:id"
+        className='absolute px-4 py-2 bg-[#a388e9] text-white border border-white rounded-xl'>
+        Book Show
+      </Link>
+    </div>
+  </div>
+
+  {/* Video element added here after input and Book Show button */}
+  <div className='pt-[80px]'>
+    <video
+      autoPlay
+      loop
+      muted
+      className='w-full h-[500px]  object-cover z-5 rounded-lg'
+    >
+      <source src={video} type='video/mp4' />
+    </video>
+  </div>
+
+  {/* Reviews Section */}
+  <div className='flex justify-center items-center mb-9 text-white mt-[50px]'>
+    <p className='bg-[#191919] w-full text-center py-3 text-3xl font-serif  '>
+      Reviews
+    </p>
+  </div>
+
+  <div className='flex justify-between space-x-4'>
+    <div className='h-45 w-1/4 text-center text-gray-300 font-serif border rounded-xl border-gray-600'>
+      <p className='mt-4'>"I've been using this ticket booking platform for months now, and I couldn't be happier."</p>
+      <br />
+      <p className='text-gray-500'>From: Henry (U.S.A)</p>
+    </div>
+
+    {/* Repeat for other reviews */}
+    <div className='h-45 w-1/4 text-center text-gray-300 font-serif border rounded-xl border-gray-600'>
+      <p className='mt-4'>"I've been using this ticket booking platform for months now, and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts and events."</p>
+      <br />
+      <p className='text-gray-500'>From: Cavin (U.S.A)</p>
+    </div>
+
+    <div className='h-45 w-1/4 text-center text-gray-300 font-serif border rounded-xl border-gray-600'>
+      <p className='mt-4'>"I've been using this ticket booking platform for months now, and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts and events."</p>
+      <br />
+      <p className='text-gray-500'>From: Alexa (U.S.A)</p>
+    </div>
+
+    <div className='h-45 w-1/4 text-center text-gray-300 font-serif border rounded-xl border-gray-600'>
+      <p className='mt-4'>"I've been using this ticket booking platform for months now, and I couldn't be happier. The interface is clean, and it's super easy to find and book tickets for concerts and events."</p>
+      <br />
+      <p className='text-gray-500'>From: Sam (U.S.A)</p>
+    </div>
+  </div>
+
+  {/* Footer */}
+  <footer className="flex flex-col items-center justify-center mt-20">
+    <div className="h-full w-full bg-gradient-to-b from-[#a388e9] to-[#d5c8f5] text-white border border-gray-600 rounded-xl flex flex-col items-center justify-center font-serif p-6">
+      <div className="text-4xl font-bold mt-10">Be the first to get access</div>
+      <div className="text-xl mt-4 text-center font-serif text-gray-200">
+        You can't wait any longer, just like us?<br />
+        Then sign up to our waitlist to be one of the Tickeve users.
+      </div>
+
+      <div className='text-center mt-12'>
+        <input
+          className='py-3 px-10 font-serif mr-3 rounded-xl pr-14 text-center text-white bg-[#191919]'
+          type='Email'
+          placeholder='Email Address'
+        />
+        <Link to="Concert/:id"
+          className='px-6 py-4 bg-[#131314] text-white rounded-xl'>
+          Join Waitlist
+        </Link>
+      </div>
+
+      <hr className="w-full border-gray-900 mt-6" />
+      <div className="w-full text-white font-serif flex mt-6">
+        <p className='w-full text-left text-[#131314] text-3xl'>
+          Tickeve
+          <br />
+          <span className='text-xl'>@ 2024</span>
+        </p>
+        <p className='w-full text-right text-[#131314]'>
+          <Link to="contact">Contact us: info@tickeve.com</Link>
+          <br />Privacy Policy | Terms of Service
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  {/* Chat-bot Button */}
+  <Link to="chat">
+    <div className='fixed bottom-1 right-3'>
+      <button className='rounded-xl p-2 bg-black border border-gray-200 text-gray-200'>
+        Chat-bot
+      </button>
+    </div>
+  </Link>
+</div>
+
+
     </>
   );
 };
