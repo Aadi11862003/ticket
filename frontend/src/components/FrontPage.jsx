@@ -298,7 +298,7 @@ const FrontPage = () => {
     {/* Email input and Book Show button */}
     <div className='text-center mt-12'>
       <input
-        className='py-3 px-10 font-serif rounded-xl mr-7 pr-14 text-center text-white bg-[#191919]'
+        className='py-3 px-10 font-serif rounded-xl mr-7 pr-14 text-center text-white bg-[#000000]'
         type='Email'
         placeholder='Email Address'
       />
@@ -310,12 +310,12 @@ const FrontPage = () => {
   </div>
 
   {/* Video element added here after input and Book Show button */}
-  <div className='pt-[80px]'>
+  <div className='pt-[90px]'>
     <video
       autoPlay
       loop
       muted
-      className='w-full h-[500px]  object-cover z-5 rounded-lg'
+      className='w-full h-[550px]  object-cover z-5 '
     >
       <source src={video} type='video/mp4' />
     </video>
@@ -330,7 +330,8 @@ const FrontPage = () => {
 
   <div className='flex justify-between space-x-4'>
     <div className='h-45 w-1/4 text-center text-gray-300 font-serif border rounded-xl border-gray-600'>
-      <p className='mt-4'>"I've been using this ticket booking platform for months now, and I couldn't be happier."</p>
+      <p className='mt-4'>"I've been using this ticket booking platform for months now, and I couldn't be happier.
+      The interface is clean, and it's super easy to find and book tickets for concerts and events."</p>
       <br />
       <p className='text-gray-500'>From: Henry (U.S.A)</p>
     </div>
