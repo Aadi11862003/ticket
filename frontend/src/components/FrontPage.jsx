@@ -4,6 +4,7 @@ import bp from '../../public/r.png'
 import set from '../../public/set1.png'
 import video from '../../public/v-1.mp4'
 
+
 const FrontPage = () => {
   const [isChatbotOpen, setChatbotOpen] = useState(false);
   const chatbotRef = useRef(null);
