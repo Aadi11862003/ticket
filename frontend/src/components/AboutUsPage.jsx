@@ -1,72 +1,56 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../index.css';
+import ai from '../../public/aiii.jpg'
+import main from '../../public/main.jpg'
+import flow from '../../public/flow.jpg'
 
 
 const teamMembers = [
     {
         name: "Aditya Bhardwaj",
-        role: "Event Manager",
+        
         photo: "https://via.placeholder.com/150",
     },
     {
         name: "Aashwin Garg",
-        role: "Coordinator",
-        photo: "https://via.placeholder.com/150",
+        
+        photo: "",
     },
     {
         name: "Aditi",
-        role: "Designer",
+        
         photo: "https://via.placeholder.com/150",
     },
     {
         name: "Abhinav Thakur",
-        role: "Marketing Specialist",
+        
         photo: "https://via.placeholder.com/150",
     },
 ];
 
 const AboutUs = () => {
     return (
-        <div className="bg-black py-16 px-6 md:px-24">
-            <div className="max-w-5xl mx-auto bg-slate-900 text-violet-300 p-10 rounded-xl shadow-xl">
-                <h1 className="text-5xl font-extrabold text-center text-violet-400 mb-8">
+        <div className="bg-white py-16 px-6 md:px-24">
+            <div className="max-w-5xl mx-auto bg-white-900 text-black-300 p-10 rounded-xl shadow-xl">
+                <h1 className="text-5xl font-extrabold text-center text-black-400 mb-8">
                     About Us
                 </h1>
                 <p className="text-xl leading-relaxed mb-6">
                     Welcome to <span className="font-bold">TickEve</span>! We are a team of passionate event planners and coordinators dedicated to making your events unforgettable.
                 </p>
 
-                {/* Team Section */}
-                <h2 className="text-4xl font-bold text-center  mb-10">
-                    Meet Our Team
-                </h2>
-                <div className="flex flex-wrap justify-center bg-slate-900 gap-8 mb-10">
-                    {teamMembers.map((member, index) => (
-                        <div key={index} className="max-w-xs  rounded-lg shadow-md p-5">
-                            <img
-                                src={member.photo}
-                                alt={member.name}
-                                className="rounded-full w-32 h-32 mx-auto mb-4"
-                            />
-                            <h3 className="text-2xl font-semibold text-center  mb-2">
-                                {member.name}
-                            </h3>
-                            <p className="text-lg text-center ">
-                                {member.role}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-
+            
+               
                 {/* Project Overview Section */}
                 <h2 className="text-4xl mb-5 font-bold ml-[420px] ">
                     Project Overview
                 </h2>
-                <div className="flex flex-col md:flex-row gap-6 items-center mb-10">
+                <div className="flex flex-col  md:flex-row gap-6 items-center mb-10">
                     <img 
-                        src="https://via.placeholder.com/400x250" 
+                        src={main} 
                         alt="Project Overview Illustration" 
-                        className="rounded-lg shadow-lg mb-4 md:mb-0"
+                        className="rounded-lg  h-45 w-1/2 shadow-lg mb-4 md:mb-0"
                     />
                     <div>
                         <p className="text-lg  leading-relaxed mb-4">
@@ -93,7 +77,7 @@ const AboutUs = () => {
                 </h2>
                 <div className="flex flex-col md:flex-row gap-6 items-center mb-10">
                     <img 
-                        src="https://via.placeholder.com/400x250" 
+                        src=""
                         alt="Vision for the Future Illustration" 
                         className="rounded-lg shadow-lg mb-4 md:mb-0"
                     />
@@ -113,7 +97,7 @@ const AboutUs = () => {
                 </h2>
                 <div className="flex flex-col md:flex-row gap-6 items-center mb-10">
                     <img 
-                        src="https://via.placeholder.com/400x250" 
+                        src={ai}
                         alt="AI Voice Command Illustration" 
                         className="rounded-lg shadow-lg mb-4 md:mb-0"
                     />
@@ -136,14 +120,37 @@ const AboutUs = () => {
                     </div>
                 </div>
 
+                 {/* Team Section */}
+                 <h2 className="text-4xl font-bold text-center  mb-10">
+                    Meet Our Team
+                </h2>
+                <div className="flex flex-wrap justify-center bg-white-900 gap-8 mb-10">
+                    {teamMembers.map((member, index) => (
+                        <div key={index} className="max-w-xs  rounded-lg shadow-md p-5">
+                            <img
+                                src={flow}
+                                alt={member.name}
+                                className="rounded-full w-32 h-32 mx-auto mb-4"
+                            />
+                            <h3 className="text-2xl font-semibold text-center  mb-2">
+                                {member.name}
+                            </h3>
+                            <p className="text-lg text-center ">
+                                {member.role}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+
                 {/* Ending Section */}
                 <div className="bg-black-900 text-violet py-10 px-6 rounded-lg text-center">
                     <h2 className=" text-4xl font-bold mb-4">Join Us on Our Journey</h2>
                     <p className="text-lg mb-10 leading-9">
                         We're excited to continue growing and improving our platform with the support of our users. Join us on this journey, and let's make every event a success together.
                     </p>
-                    <a href="#contact" className="text-lg bg-white px-6 py-3 rounded-full shadow-md hover:bg-gray-100">
-                        Contact Us
+                    <a  className="text-lg bg-white px-6 py-3 rounded-full shadow-md hover:bg-gray-100">
+                        <Link to="/contact">Contact Us
+                        </Link>
                     </a>
                 </div>
             </div>
