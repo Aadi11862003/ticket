@@ -8,7 +8,7 @@ const ConcertDetail = () => {
   const [studentID, setStudentID] = useState('');
   const [paymentMethod, setPaymentMethod] = useState('upi');
   const [ticketType, setTicketType] = useState('basic'); // New state for ticket type
-
+  
   // Sample concert data
   const concert = {
     title: "Concert A",
@@ -39,7 +39,7 @@ const ConcertDetail = () => {
   };
 
   return (
-    <div className="upcoming-shows bg-black mb-8">
+    <div className="upcoming-shows bg-white mb-8">
     <div className="line flex bg-black m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
