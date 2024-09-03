@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef(null);
+  
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -19,6 +20,8 @@ const Navbar = () => {
   const handleDropdownClick = () => {
     setShowDropdown(!showDropdown);
   };
+
+
 
   return (
     <nav className="bg-[#000000] p-4 shadow-lg">

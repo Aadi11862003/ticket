@@ -12,6 +12,10 @@ import About from './components/AboutUsPage';
 import Chatbot from './components/chatbot'
 import Price from './components/price'
 import Index from './components/index' 
+import Home from './components/home'
+import Book from './components/ticketbook'
+import Detail from './components/detailsFinished'
+
 
 
 function App() {
@@ -32,6 +36,9 @@ function App() {
           <Route path="/chat" element={<Chatbot />} />
           <Route path="/price" element={<Price />} />
           <Route path="/index" element={<Index />} />
+          <Route path="/book" element={<Book />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/detail" element={<Detail />} />
           
          
         </Routes>
