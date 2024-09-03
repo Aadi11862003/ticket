@@ -51,7 +51,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
                 </div>
                 <div className="rightt-2 flex justify-center items-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
                 </div>
                 <div className="rightt-2 flex justify-center items-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -171,7 +171,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -201,7 +201,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
                 </div>
                 <div className="rightt-2 flex justify-center items-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -215,7 +215,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For die heart fans of Arijit Singh as he is going to perform the most intriguing songs he has ever had...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -245,7 +245,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">For fans who love Stand-Up Comedy and love to get in the realms of crowdwork and funny stories...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -261,7 +261,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum ut rerum magni molestias...</div>
                 </div>
                 <div className="rightt-2 flex justify-center items-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
@@ -275,7 +275,7 @@ const ConcertDetail = () => {
                     <div className="desc font-serif text-wrap text-violet-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsum delectus dignissimos quo autem...</div>
                 </div>
                 <div className="rightt-2 flex justify-center">
-                    <a href="detailsUpcomingConcerts.html" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
+                    <a href="detailsUpcomingConcerts.jsx" className="bg-black text-violet-300 p-2 font-serif mb-4 rounded-xl details-button">Details</a>
                 </div>
             </div>
         </div>
