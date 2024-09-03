@@ -39,9 +39,6 @@ const Tickeve = () => {
           <p>Share</p>
         </div>
       </div>
-
-      <hr className="opacity-30" />
-
       <div className="about-section">
         <div className="about-event-title text-white font-serif text-3xl ml-8 mt-8">
           About the Event
