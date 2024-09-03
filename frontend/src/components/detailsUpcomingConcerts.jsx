@@ -30,7 +30,7 @@ const Tickeve = () => {
             </div>
           </div>
           <div className="book-tickets flex items-center">
-            <button className="bg-violet-400 py-3 px-10 text-xl rounded-2xl font-serif mt-10 ml-7">
+            <button className="bg-violet-400 py-3 px-10 text-xl rounded-lg font-serif mt-10 ml-7">
               <a href="">Book Tickets</a>
             </button>
           </div>
