@@ -28,8 +28,8 @@ function App() {
 {/*           <Route path="/update" element={<Update />} /> */}
           <Route path="/Concert/:id" element={<Concert />} />
           <Route path="/finish" element={<Finished />} />
-          <Route path="/details" element={Finish />}/>
-          <Route path="/shashiDetails" element={Shashi />}/>
+          <Route path="/details" element={<Finish />}/>
+          <Route path="/shashiDetails" element={<Shashi />}/>
           <Route path="/live" element={<Live />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
