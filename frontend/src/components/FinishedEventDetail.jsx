@@ -60,7 +60,7 @@ const HomePage = () => {
               </div>
               <div className="flex justify-center mt-2">
                 <Link
-                  to="/detailsFinsihed"
+                  to="/Detail"
                   className="bg-black text-white-300 p-2 font-serif rounded-xl details-button"
                 >
                   Details
@@ -86,7 +86,7 @@ const HomePage = () => {
               </div>
               <div className="flex justify-center mt-2">
                 <Link
-                  to="/detailsFinsihed"
+                  to="/Detail"
                   className="bg-black text-white-300 p-2 font-serif rounded-xl details-button"
                 >
                   Details
@@ -115,7 +115,7 @@ const HomePage = () => {
               </div>
               <div className="flex justify-center mt-2">
                 <Link
-                  to="/shashiDetails"
+                  to="/Detail"
                   className="bg-black text-white-300 p-2 font-serif rounded-xl details-button"
                 >
                   Details
@@ -141,7 +141,7 @@ const HomePage = () => {
               </div>
               <div className="flex justify-center mt-2">
                 <Link
-                  to="/detailsFinsihed"
+                  to="/Detail"
                   className="bg-black text-white-300 p-2 font-serif rounded-xl details-button"
                 >
                   Details
