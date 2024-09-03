@@ -16,7 +16,7 @@ const LoginPage = () => {
     // Perform login logic here (e.g., validate user credentials)
 
     // Redirect to the desired page upon successful login
-    navigate('/Concert/:id'); // Replace '/Concert/:id' with your target route
+    navigate('/home'); // Replace '/Concert/:id' with your target route
   };
 
   return (

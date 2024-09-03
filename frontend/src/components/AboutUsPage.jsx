@@ -4,6 +4,8 @@ import '../index.css';
 import ai from '../../public/aiii.jpg'
 import main from '../../public/main.jpg'
 import flow from '../../public/flow.jpg'
+import im from '../../public/im1.jpg'
+
 
 
 const teamMembers = [
@@ -75,11 +77,11 @@ const AboutUs = () => {
                 <h2 className="text-3xl font-bold ml-[420px] mb-6 mt-12">
                     Our Vision for the Future
                 </h2>
-                <div className="flex flex-col md:flex-row gap-6 items-center mb-10">
+                <div className="flex flex-col md:flex-row  gap-6 items-center mb-10">
                     <img 
-                        src=""
+                        src={im}
                         alt="Vision for the Future Illustration" 
-                        className="rounded-lg shadow-lg mb-4 md:mb-0"
+                        className="rounded-lg w-1/2 shadow-lg mb-4 md:mb-0"
                     />
                     <div>
                         <p className="text-lg  leading-relaxed mb-4">
