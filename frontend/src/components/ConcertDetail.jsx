@@ -70,7 +70,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-    <div className="line flex bg-black m-auto w-11/12 mt-2">
+    <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" className="w-72 p-2" />
@@ -100,7 +100,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-      <div className="line flex bg-black m-auto w-11/12 mt-2">
+      <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" className="w-72 p-2" />
@@ -130,7 +130,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-    <div className="line flex bg-black m-auto w-11/12 mt-2">
+    <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" className="w-72 p-2" />
@@ -160,7 +160,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-      <div className="line flex bg-black m-auto w-11/12 mt-2">
+      <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" className="w-72 p-2" />
@@ -190,7 +190,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-    <div className="line flex bg-black m-auto w-11/12 mt-2">
+    <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" className="w-72 p-2" />
@@ -220,7 +220,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-      <div className="line flex bg-black m-auto w-11/12 mt-2">
+      <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://ticketeve.vercel.app/assets/img3-Qnv1O0WQ.webp" alt="" className="w-72 p-2" />
@@ -250,7 +250,7 @@ const ConcertDetail = () => {
             </div>
         </div>
     </div>
-    <div className="line flex bg-black m-auto w-11/12 mt-2">
+    <div className="line flex bg-white m-auto w-11/12 mt-2">
         <div className="tile-1 bg-slate-900 text-white flex m-4">
             <div className="left">
                 <img src="https://www.thestatesman.com/wp-content/uploads/2024/06/Diljit-Dosanjh-sparks-Bhangra-frenzy-on-The-Tonight-Show-Starring-Jimmy-Fallon-1024x683.jpg" alt="" className="w-72 p-2" />
