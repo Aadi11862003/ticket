@@ -13,7 +13,7 @@ import Contact from './components/ContactPage';
 import About from './components/AboutUsPage';
 import Chatbot from './components/chatbot'
 import Price from './components/price'
-import UpcomingDetailed from './components/detailsUpcoming'
+import UpcomingDetailed from './components/detailsUpcomingConcerts'
 import Index from './components/index' 
 import Home from './components/home'
 import Book from './components/ticketbook'
