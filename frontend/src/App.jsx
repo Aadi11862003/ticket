@@ -7,7 +7,7 @@ import Sign from './components/SignupCard';
 import Concert from './components/ConcertDetail';
 import Finished from './components/FinishedEventDetail';
 import Finish from './components/detailsFinished';
-import Shashi from './components/shashiDetails';
+
 import Live from './components/LiveEventsPage';
 import Contact from './components/ContactPage';
 import About from './components/AboutUsPage';
@@ -33,7 +33,7 @@ function App() {
           <Route path="/Concert/:id" element={<Concert />} />
           <Route path="/finish" element={<Finished />} />
           <Route path="/details" element={<Finish />}/>
-          <Route path="/shashiDetails" element={<Shashi />}/>
+          
           <Route path="/live" element={<Live />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
